@@ -18,15 +18,16 @@ void blockWait() {
 }
 
 void sigabrtHandler(int signalNumber){
-    printf("SIGABRT\n"); //6
+    printf("Esse BRT não é expresso!\n"); //6
 }
 
 void sigbusHandler(int signalNumber) {
-    printf("SIGBUS\n"); // 7
+    printf("Esse não é o seu ônibus!\n"); // 7
 }
 
 void sigstrapHandler(int signalNumber) {
-    printf("SIGTRAP\n"); //5
+    printf("É uma cilada Bino!\n"); //5
+    printf("O programa será encerrado...\n");
     finished=true;
 }
 
