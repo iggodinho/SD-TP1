@@ -25,7 +25,7 @@ void sigbusHandler(int signalNumber) {
     printf("Esse não é o seu ônibus!\n"); // 7
 }
 
-void sigstrapHandler(int signalNumber) {
+void sigtrapHandler(int signalNumber) {
     printf("É uma cilada Bino!\n"); //5
     printf("O programa será encerrado...\n");
     finished=true;
