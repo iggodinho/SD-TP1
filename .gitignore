@@ -2,3 +2,5 @@
 pipes/prodCons
 signals/signalReceiver
 signals/signalSender
+sockets/clientProd
+sockets/serverCons
